@@ -51,6 +51,7 @@ public class dmeo {
 			for (int j = 0; j < n; j++)
 				maze[i][j] = in.nextInt();
 		
+		new dmeo(maze).go();
 		
 	}
 }
